@@ -1,0 +1,44 @@
+{
+  "name": "learn-tailwindcss",
+  "version": "1.0.0",
+  "description": "Learn tailwindcss | A step by step tutorial",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode=development --open",
+    "build": "rm -rf dist && export NODE_ENV=production && webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YouAskWeBuild/learn-tailwindcss.git"
+  },
+  "keywords": [
+    "tailwindcss",
+    "tailwind",
+    "css",
+    "tutorial"
+  ],
+  "author": "Balachandar Sureshkumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YouAskWeBuild/learn-tailwindcss/issues"
+  },
+  "homepage": "https://github.com/YouAskWeBuild/learn-tailwindcss#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.5",
+    "@babel/preset-env": "^7.14.5",
+    "autoprefixer": "^10.2.6",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^9.0.0",
+    "css-loader": "^5.2.6",
+    "postcss": "^8.3.1",
+    "postcss-loader": "^6.1.0",
+    "postcss-preset-env": "^6.7.0",
+    "style-loader": "^2.0.0",
+    "tailwindcss": "^2.1.4",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {}
+}

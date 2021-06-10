@@ -1,0 +1,11 @@
+/**
+ * @author Balachandar Sureshkumar
+ * @email [balachandar.sureshkumar<at>gmail.com]
+ * @create date 2021-06-10 23:38:39
+ * @modify date 2021-06-10 23:39:00
+ * @desc [styles.css - Stylesheets]
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
