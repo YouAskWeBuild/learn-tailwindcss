@@ -2,7 +2,7 @@
  * @author Balachandar Sureshkumar
  * @email [balachandar.sureshkumar<at>gmail.com]
  * @create date 2021-06-11 00:28:52
- * @modify date 2021-06-11 01:43:12
+ * @modify date 2021-06-11 23:16:58
  * @desc Webpack Configuration
  */
 
@@ -45,6 +45,12 @@ module.exports = {
         {
           from: "*.html",
           context: path.resolve(__dirname, "src", "html"),
+          force: true,
+        },
+        {
+          from: "*",
+          context: path.resolve(__dirname, "src", "assets", "images"),
+          to: "images",
           force: true,
         },
       ],
