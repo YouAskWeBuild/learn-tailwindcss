@@ -2,7 +2,7 @@
  * @author Balachandar Sureshkumar
  * @email [balachandar.sureshkumar<at>gmail.com]
  * @create date 2021-06-11 00:28:52
- * @modify date 2021-06-11 23:16:58
+ * @modify date 2021-06-12 19:48:21
  * @desc Webpack Configuration
  */
 
@@ -32,6 +32,10 @@ module.exports = {
         test: /\.css$/i,
         include: path.resolve(__dirname, "src"),
         use: ["style-loader", "css-loader", "postcss-loader"],
+      },
+      {
+        test: /\.(png|woff|woff2|eot|ttf|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+        loader: "url-loader",
       },
     ],
   },

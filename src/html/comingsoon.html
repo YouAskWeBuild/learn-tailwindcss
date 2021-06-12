@@ -1,14 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coming Soon</title>
-  </head>
-  <body>
-    <header class="flex">
-        <div class="flex-row"><img src="/assets/</div>
+    <script src="bundle.js"></script>
+</head>
+
+<body class="w-full h-screen bg-no-repeat bg-gradient-to-b from-indigo-300 font-sans">
+    <header class="flex lg:flex-row sm:flex-col p-4">
+        <div class=" flex-none lg:w-2/12 text-white text-2xl sm:text-center sm:mb-4 font-bold  sm:w-full">
+            You Ask We
+            Build
+        </div>
+        <div
+            class="flex-grow inline-flex lg:flex-row  sm:flex-col sm:text-center justify-end text-white lg:border-none lg:divide-none sm:divide-y sm:divide-white sm:border-b-2 sm:border-t-2 sm:border-white text-lg  leading-9 font-semibold">
+            <div class="lg:w-1/12 sm:w-full">Home</div>
+            <div class="lg:w-1/12 sm:w-full">About</div>
+            <div class="lg:w-1/12 sm:w-full">Contact</div>
+        </div>
     </header>
-  </body>
+    <section class="flex flex-col items-center justify-center">
+        <div class="text-6xl h-16 text-white font-extrabold align-middle">C O M I N G &nbsp;&nbsp; S O O N
+        </div>
+    </section>
+    <section class="flex lg:flex-row  sm:flex-col">
+        <div class="flex flex-col lg:w-1/2 sm:w-full">
+            <img class="object-contain sm:w-4/5 mx-auto lg:w-full" src="images/coder.png" alt="">
+        </div>
+        <div class="flex flex-col lg:w-1/2 sm:w-full items-center justify-items-center">
+            <div class="w-4/5 mx-auto h-full flex flex-col justify-center items-center sm:mb-5">
+                <div class="sm:text-white lg:text-indigo-400 text-xl mb-3 w-2/3 font-light">We are currently building
+                    something cool, join
+                    the
+                    waiting list. We will keep you posted.</div>
+                <div class="flex flex-row  w-2/3 ">
+                    <input class="text-lg border-indigo-400 border-2 p-3 w-2/3" name="email" type="email"
+                        placeholder="Your email here!">
+                    <button class="w-1/3 bg-indigo-400 p-4 text-white">Notify me!</button>
+                </div>
+            </div>
+    </section>
+    <footer class="text-center w-full text-base text-indigo-400">
+        Made with <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-red-500 inline" viewBox="0 0 20 20"
+            fill="currentColor">
+            <path fill-rule="evenodd"
+                d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                clip-rule="evenodd" />
+        </svg> by YouAskWeBuild | <a href="https://www.freepik.com/vectors/technology">Technology vector created
+            by
+            pikisuperstar - www.freepik.com</a>
+    </footer>
+
+</body>
+
 </html>
